@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bolis El Gordo</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #00bfff, #ff69b4);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .flavors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .flavor-card {
+      border: 2px solid #ff69b4;
+      border-radius: 15px;
+      overflow: hidden;
+      background-color: #fefefe;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .flavor-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .flavor-name {
+      font-weight: bold;
+      padding: 1rem;
+      color: #ff69b4;
+    }
+
+    .order-button {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ff69b4;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bolis El Gordo</h1>
+    <p>Delicious Mexican-style ice pops 💙💖</p>
+  </header>
+
+  <main>
+    <section class="flavors">
+      <!-- Repeat for each flavor -->
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Cafe" alt="Cafe">
+        <div class="flavor-name">Café</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Chocolate+Abuelita" alt="Chocolate Abuelita">
+        <div class="flavor-name">Chocolate Abuelita</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Churro" alt="Churro">
+        <div class="flavor-name">Churro</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Coco" alt="Coco">
+        <div class="flavor-name">Coco</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Fresas+con+Crema" alt="Fresas con Crema">
+        <div class="flavor-name">Fresas con Crema</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Guayaba" alt="Guayaba">
+        <div class="flavor-name">Guayaba</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Jamaica" alt="Jamaica">
+        <div class="flavor-name">Jamaica</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Limon" alt="Limon">
+        <div class="flavor-name">Limón</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Mango+con+Chamoy" alt="Mango con Chamoy">
+        <div class="flavor-name">Mango con Chamoy</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Mazapan" alt="Mazapan">
+        <div class="flavor-name">Mazapan</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Pay+de+Limon" alt="Pay de Limón">
+        <div class="flavor-name">Pay de Limón</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Pepino+con+Chile" alt="Pepino con Chile">
+        <div class="flavor-name">Pepino con Chile</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Pina" alt="Pina">
+        <div class="flavor-name">Piña</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Rompope" alt="Rompope">
+        <div class="flavor-name">Rompope</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Sandia" alt="Sandía">
+        <div class="flavor-name">Sandía</div>
+      </div>
+      <div class="flavor-card">
+        <img src="https://via.placeholder.com/300x150?text=Tamarindo" alt="Tamarindo">
+        <div class="flavor-name">Tamarindo</div>
+      </div>
+    </section>
+
+    <a class="order-button" href="https://bolis-el-gordo.square.site/?location_id=L2RCKD3RK5AYR&fulfillment=PICKUP" target="_blank">Order Now</a>
+  </main>
+
+  <footer>
+    © 2025 Bolis El Gordo 💙💖 | Follow us on Instagram @bolis.elgordo
+  </footer>
+
+</body>
+</html>
